@@ -17,6 +17,9 @@ Updating
 $ git pull
 ```
 
+If you have a GitHub account, clicking the "Fork" button will copy this repository to your GitHub account.
+
+
 ## Table of Content (Plan)
 
 **Day1** | &nbsp; 
