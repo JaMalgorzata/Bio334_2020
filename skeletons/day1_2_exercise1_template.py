@@ -8,7 +8,7 @@ same = 0
 diff = 0
 
 
-
+# your code here
 
 
 print("same nucleotides : %d" % same)       # Show the total number of same characters
