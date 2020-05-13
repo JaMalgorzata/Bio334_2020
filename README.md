@@ -37,9 +37,9 @@ If you have a GitHub account, clicking the "Fork" button will copy this reposito
 9.00-12.00 | **Advanced exercise** [bio334_day3.ipynb](https://nbviewer.jupyter.org/github/masaomi/Bio334_2020/blob/master/jupyter_notebooks/bio334_day3.ipynb)
 
 ## Exercises
-- Day1 Part1:
-- Day1 Part2:
-- Day1 Part3:
+- Day1 Part1: https://gist.github.com/masaomi/75ac75aa49d3603697e24864b2345d4d
+- Day1 Part2: https://gist.github.com/masaomi/b2f52f4723757d5fd1b93ed422f81923
+- Day1 Part3: https://gist.github.com/masaomi/857f8257e4ec9d4fb80557a5890f22a3
 - Day2 Part1:
 - Day2 Part2:
 - Day2 Part3:
