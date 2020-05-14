@@ -58,7 +58,9 @@ def next_pops(pops, mut_rate):
 
 
 #main
+f = open("result.dat","w")
 print("Generation\ttheta\tseg_site_rate\tnuc_div\tTajimas_D")
+print("Generation\ttheta\tseg_site_rate\tnuc_div\tTajimas_D", file=f)
 for g in range(0, generation):
     #print g, "\t", theta, "\t", nuc_div(pops, seq_len), "\t", tajimas_d(pops), "\n";
     seg = exercise_module.count_seg_sites(pops)
@@ -66,8 +68,10 @@ for g in range(0, generation):
     nd = exercise_module.nucleotide_diversity(pops)
     td = exercise_module.tajimas_d(pops)
     print(g, "\t", theta, "\t", seg, "\t", nd, "\t", td) #python3
+    print(g, "\t", theta, "\t", seg, "\t", nd, "\t", td, file=f)
     #print g, "\t", theta, "\t", seg_rate, "\t", nd, "\t", td
     pops = next_pops(pops, mut_rate); 
+f.close()
 
 f = open("final_pops.fa","w")
 for i in range(0, len(pops)):
